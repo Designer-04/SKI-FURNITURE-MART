@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>SKI Furniture Mart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>SKI FURNITURE MART</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Banner Section -->
+    <section id="home" class="banner">
+        <img src="images/sofa.jpg" alt="Main Sofa" class="main-image">
+        <h2>Welcome to SKI FURNITURE MART</h2>
+        <p></p>
+        <p>Your one-stop shop for quality furniture.</p>
+        <button onclick="exploreProducts()">Explore Our Products</button>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="images/sofa2.jpg" alt="Sofa">
+                <h3>Luxury Sofa</h3>
+                <p>RS 55,000</p>
+            </div>
+            <div class="product">
+                <img src="images/dining table.jpg" alt="Dining Table">
+                <h3>Dining Table</h3>
+                <p>RS 10,300</p>
+            </div>
+            <div class="product">
+                <img src="images/bed.jpg" alt="Bed">
+                <h3>King Size Bed</h3>
+                <p>RS 34,000</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <h2>About Us</h2>
+        <p>At SKI Furniture Mart, we specialize in high-quality, stylish furniture to enhance your home and office.</p>
+    </section>
+
+    <!-- Login Section -->
+    <section id="login" class="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 SKI Furniture Mart. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
